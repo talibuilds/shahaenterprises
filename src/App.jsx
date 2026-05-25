@@ -1,6 +1,7 @@
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 
 import Home from './pages/Home'
 import InteriorDesign from './pages/InteriorDesign'
@@ -20,6 +21,7 @@ function App() {
           <Route path="/bungalow-design" element={<BungalowDesign />} />
         </Routes>
       </Router>
+      <SpeedInsights />
     </div>
   )
 }
