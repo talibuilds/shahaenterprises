@@ -7,7 +7,6 @@ Sitemap: https://www.shahaenterprises.com/sitemap.xml
 # Specific instructions for major search engines
 User-agent: Googlebot
 Allow: /
-Crawl-delay: 1
 
 User-agent: Bingbot
 Allow: /

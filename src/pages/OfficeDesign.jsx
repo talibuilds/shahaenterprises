@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import { gsap } from 'gsap'
 import { ArrowLeft, Building2, Users, Lightbulb, TrendingUp } from 'lucide-react'
 import { Link } from 'react-router-dom'
+import SEO from '../components/SEO'
 import Navbar from '../components/Navbar'
 import Contact from '../components/Contact'
 import Map from '../components/Map'
@@ -107,6 +108,10 @@ const OfficeDesign = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-dark-900 to-dark-800">
+      <SEO 
+        title="Modern Office Interior Design & Space Planning Pune | Shaha Enterprises" 
+        description="Optimize your workspace with modern office interior design in Pune. Ergononic seating layouts, collaborative areas, branding integration, and technology setup."
+      />
       <Navbar />
       
       {/* Hero Section */}
@@ -114,7 +119,7 @@ const OfficeDesign = () => {
         <div className="absolute inset-0">
           <img 
             src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
-            alt="Office Design"
+            alt="Modern luxury office interior design and space planning in Pune by Shaha Enterprises"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-60" />
@@ -286,7 +291,7 @@ const OfficeDesign = () => {
                 <div className="aspect-[4/3] overflow-hidden">
                   <img 
                     src={project.image}
-                    alt={project.title}
+                    alt={`${project.title} - Corporate Office Design by Shaha Enterprises Pune`}
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
                 </div>

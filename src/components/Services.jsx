@@ -148,7 +148,7 @@ const services = [
                   <div className="aspect-video bg-gradient-to-br from-gold-400/10 to-gold-600/5 rounded-xl border border-gold-400/20 overflow-hidden group-hover:border-gold-400/30 transition-all duration-300">
                     <img 
                       src={service.image} 
-                      alt={service.title}
+                      alt={`${service.title} Services in Pune - Shaha Enterprises`}
                       className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                     />
                   </div>

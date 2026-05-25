@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import { gsap } from 'gsap'
 import { ArrowLeft, Palette, Home, Star, Check, Clock, Award } from 'lucide-react'
 import { Link } from 'react-router-dom'
+import SEO from '../components/SEO'
 import Navbar from '../components/Navbar'
 import Contact from '../components/Contact'
 import Map from '../components/Map'
@@ -95,6 +96,10 @@ const InteriorDesign = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-dark-900 to-dark-800">
+      <SEO 
+        title="Luxury Interior Design Services in Pune | Shaha Enterprises" 
+        description="Top residential and commercial interior design in Pune by Arch Taufiq Contractor. We design custom living rooms, luxury bedrooms, modular kitchens, and bespoke spaces."
+      />
       <Navbar />
       
       {/* Hero Section */}
@@ -102,7 +107,7 @@ const InteriorDesign = () => {
         <div className="absolute inset-0">
           <img 
             src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
-            alt="Interior Design"
+            alt="Premium luxury residential interior design services in Pune by Shaha Enterprises"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-60" />
@@ -209,7 +214,7 @@ const InteriorDesign = () => {
                 <div className="aspect-[4/3] overflow-hidden">
                   <img 
                     src={project.image}
-                    alt={project.title}
+                    alt={`${project.title} - Luxury Interior Design by Shaha Enterprises Pune`}
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
                 </div>

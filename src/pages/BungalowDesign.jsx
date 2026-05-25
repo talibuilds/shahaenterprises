@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import { gsap } from 'gsap'
 import { ArrowLeft, Home, Ruler, TreePine, Shield } from 'lucide-react'
 import { Link } from 'react-router-dom'
+import SEO from '../components/SEO'
 import Navbar from '../components/Navbar'
 import Contact from '../components/Contact'
 import Map from '../components/Map'
@@ -123,6 +124,10 @@ const BungalowDesign = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-dark-900 to-dark-800">
+      <SEO 
+        title="Premium Bungalow Design & Architectural Planning Pune | Shaha Enterprises" 
+        description="Build your dream home with top architects in Pune. End-to-end luxury bungalow design, structural engineering, landscape design, and construction coordination."
+      />
       <Navbar />
       
       {/* Hero Section */}
@@ -130,7 +135,7 @@ const BungalowDesign = () => {
         <div className="absolute inset-0">
           <img 
             src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
-            alt="Bungalow Design"
+            alt="Premium luxury bungalow design and construction in Pune by Shaha Enterprises"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-60" />
@@ -348,7 +353,7 @@ const BungalowDesign = () => {
                 <div className="aspect-[4/3] overflow-hidden">
                   <img 
                     src={project.image}
-                    alt={project.title}
+                    alt={`${project.title} - Luxury Bungalow Architecture by Shaha Enterprises Pune`}
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
                 </div>

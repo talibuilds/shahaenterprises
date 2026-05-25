@@ -192,7 +192,7 @@ description: 'Creative workspace design for a tech startup with collaborative ar
                   <div className="relative aspect-[4/3] overflow-hidden">
                     <img 
                       src={project.image} 
-                      alt={project.title}
+                      alt={`${project.title} - Luxury Interior Design and Architecture Portfolio by Shaha Enterprises Pune`}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                     

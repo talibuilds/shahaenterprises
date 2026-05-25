@@ -89,7 +89,7 @@ const stats = [
               <div className="aspect-[4/5] rounded-2xl border border-gold-400/30 overflow-hidden">
                 <img 
                   src="https://raw.githubusercontent.com/talibuilds/git-basic/main/MainPage.png"
-                  alt="Arch Taufiq Contractor - Professional Portrait"
+                  alt="Arch Taufiq Contractor - Principal Architect & Interior Designer at Shaha Enterprises Pune"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   style={{ 
                     objectPosition: 'center center',
